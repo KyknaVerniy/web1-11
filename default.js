@@ -24,4 +24,4 @@ message = '少ないよ';
 message = '0~3入れないと爆発します';
 }
 
-document.getElementById('choise').textContent = message;
+document.getElementById('choice').textContent = message;
