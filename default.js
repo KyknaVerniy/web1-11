@@ -14,7 +14,7 @@ document.getElementById('choise').textContent = 'おｋが押されました';
 document.getElementById('choise').textContent = 'キャンセルが押されました';
 }
 var number = Math.floor(Math.random()*3);
-var answer = parseInt('window.prompt('数あてゲーム。0～2の数字を入力してください'));
+var answer = parseInt(window.prompt('数あてゲーム。0～2の数字を入力してください'));
 
 var message;
 if(answer === number){
