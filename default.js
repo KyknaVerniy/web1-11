@@ -6,7 +6,7 @@ document.getElementById('choice').textContent = new Date();
 
 var result = window.confirm('準備OK？');
 
-document.getElementById('choise').textContent = result;
+
 
 if(result){
 document.getElementById('choise').textContent = 'おｋが押されました';
