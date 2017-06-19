@@ -5,9 +5,6 @@ console.log('こんにちは世界!');
 document.getElementById('choice').textContent = new Date();
 
 var result = window.confirm('準備OK？');
-
-
-
 if(result){
 document.getElementById('choice').textContent = 'おｋが押されました';
 }else{
